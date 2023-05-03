@@ -1,6 +1,6 @@
 body {
     color: #2e2e2e;
-    font-size: 15 px;
+    font-size: 16 px;
     font-family: 'Noto Sans Thai', sans-serif;
     line-height: 1.80857;
 }
@@ -96,19 +96,17 @@ h4{
 }
 
 .blog-content {
-    margin: 75px 150px;
+
 }
 .blog-content .container{
-    margin-bottom: 50px;  
+ 
 } 
 .blog-content video{
-    width: auto;
-    height: 300px;
+
 }
 
 .blog-content img {
-    width: auto;
-    height: 300px;
+
 }
 
 .blog-content .btn-primary {
@@ -196,10 +194,19 @@ h4{
     background-image: url('source/upload/slider_01.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
+    background-size: cover;
     display: flex;
+    justify-content: center;
     align-items: center;
+    text-shadow: 2px 2px 4px #000000;
+    color:#ffffff;
+    text-align: center;
 }
+
+.slider-about-us h1 {
+    font-size: 3.5rem;
+}
+
 
 .archive-about-us {
     margin-top: 5%;
