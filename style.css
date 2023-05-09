@@ -300,7 +300,12 @@ h4 {
     background-image: url(source/caret-down.svg);
 }
 
-
+/* Comment page */
+.i-custom-comment {
+    background: -webkit-linear-gradient(0deg,rgba(10,183,243,1) 0%, rgba(15,200,243,1) 35%, rgba(255,0,245,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 
