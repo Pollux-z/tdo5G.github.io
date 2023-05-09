@@ -126,14 +126,18 @@ h4 {
 
 .count-report {
     background-image: url(source/upload/parallax_04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5% 0;
 }
 
 .count-report .container {
-    color: #ffffff;
+    /* color: #ffffff;
     font-weight: 300;
     padding: 5% 10%;
     text-align: center;
-    line-height: 0.2rem;
+    line-height: 0.2rem; */
 }
 
 .count-report .container h3 {
@@ -286,23 +290,18 @@ h4 {
 .accordion-button:enabled {
     background-color: rgb(112, 48, 160);
     color: #ffffff;
-
 }
 
 .accordion-button:focus {
-    background-color: rgb(112, 48, 160, 0.8);
-    color: #ffffff;
     box-shadow: 0 0 0 0.25rem rgb(112, 48, 160, 0.5);
-    
 }
 
-.accordion-button:focus::after {
+.accordion-button:enabled::after {
     background-image: url(source/caret-down.svg);
 }
 
-.accordion-button::after{
-    background-image: url(source/caret-down.svg);
-}
+
+
 
 
 
