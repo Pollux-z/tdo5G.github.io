@@ -183,7 +183,7 @@ main {
     border-color: white;
 }
 
-.blog-card img {
+.blog-card img , img {
     cursor: pointer;
 }
 
