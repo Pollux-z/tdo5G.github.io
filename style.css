@@ -1,3 +1,7 @@
+:root {
+    --purple-defualt: rgb(112, 48, 160);
+}
+
 body {
     color: #2e2e2e;
     font-size: 16 px;
@@ -6,26 +10,25 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+
 }
 
 h2 {
-    font-size: 2rem;
+
 }
 
 h3 {
-    font-size: 1.5rem;
+    color : var(--purple-defualt);
 }
 
 h4 {
-    font-size: 1rem;
+
 }
 
 
 
 .navbar {
     font-size: 0.9rem;
-
 }
 
 .navbar-header {}
@@ -39,15 +42,29 @@ h4 {
 
 .nav-pills .active {
     color: #ffffff !important;
-    background-color: rgb(112, 48, 160) !important;
+    background-color: var(--purple-defualt) !important;
 }
 
 .nav-pills a:hover {
-    color: rgb(112, 48, 160) !important;
+    color: var(--purple-defualt) !important;
 }
 
 .nav-pills .dropdown-menu a:hover {
     background-color: rgb(112, 48, 160, 0.2);
+}
+
+main {
+    height: 300px;
+    background-image: url('source/upload/slider_01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px #000000;
+    color: #ffffff;
+    text-align: center;
 }
 
 .slider-one {
@@ -166,8 +183,22 @@ h4 {
     border-color: white;
 }
 
+.blog-card img {
+    cursor: pointer;
+}
+
+.blog-card img:hover {
+    background: #000000;
+    opacity: 0.8;
+    box-shadow: 0 0 5px #000000;
+}
+
 .blog-card h4 {
-    font-weight: bold;
+    cursor: pointer;
+}
+
+.blog-card h4:hover {
+    color: var(--purple-defualt);
 }
 
 .blog-card p {
@@ -185,44 +216,10 @@ h4 {
 }
 
 /* About us page */
-.slider-about-us {
-    height: 300px;
-    background-image: url('source/upload/slider_01.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-shadow: 2px 2px 4px #000000;
-    color: #ffffff;
-    text-align: center;
-}
 
-.slider-about-us h1 {
-    font-size: 3.5rem;
-}
-
-
-.archive-about-us {
-    margin-top: 5%;
-    margin-bottom: 5%;
-
-}
 
 .archive-about-us h3 {
-    color: rgb(112, 48, 160);
-    margin-bottom: 3%;
-}
-
-.archive-about-us video {
-    color: rgb(112, 48, 160);
-    margin-bottom: 5%;
-}
-
-.archive-about-us hr {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    color: var(--purple-defualt);
 }
 
 /* About Project page */
