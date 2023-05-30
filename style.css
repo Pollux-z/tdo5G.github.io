@@ -1,5 +1,7 @@
 :root {
     --purple-defualt: rgb(112, 48, 160);
+    --purple-third: #37345F;
+    --purple-second: #DCCAEF
 }
 
 body {
@@ -311,6 +313,26 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
+
+#collapse-map button {
+    background-color: var(--purple-second);
+    border-color: white;
+    color: #37345F;
+}
+
+#collapse-map button:hover {
+    background-color: var(--purple-defualt);
+    color: #ffffff;
+}
+
+#collapse-map ul, #collapse-map ul li a {
+    color: var(--purple-third);
+    font-size: 1.1rem;
+}
+
+#collapse-map hr {
+    border-color: var(--purple-defualt);
+}
 
 
 
