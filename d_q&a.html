@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ติดต่อเรา</title><link rel="shortcut icon" href="source/images/favicons/favicon-16x16.png" type="image/x-icon">
+  <title>ติดต่อเรา</title>
+  <link rel="shortcut icon" href="source/images/favicons/favicon-16x16.png" type="image/x-icon">
 
   <!-- CSS bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -46,45 +47,46 @@
   <div class="container w-50 my-5">
     <div class="row">
       <h3>Q&A</h3>
-      <div class="row">
-        <div class="col-3">
-          <p class="">ประเภทการติดต่อ</p>
+      <form method="post" action="mailto:tdo@onde.go.th" name="contact_form" enctype="text/plain">
+        <div class="row">
+          <div class="col-3">
+            <p class="">ประเภทการติดต่อ</p>
+          </div>
+          <div class="col w-50">
+            <select class="form-select" aria-label="Default select example" name="select">
+              <option selected>เลือกประเภทการติดต่อ</option>
+              <option value="general">ทั่วไป</option>
+              <option value="data">ขอข้อมูล</option>
+              <option value="other">อื่นๆ</option>
+            </select>
+          </div>
         </div>
-        <div class="col w-50">
-          <select class="form-select" aria-label="Default select example">
-            <option selected>เลือกประเภทการติดต่อ</option>
-            <option value="1">ทั่วไป</option>
-            <option value="2">ขอข้อมูล</option>
-            <option value="3">อื่นๆ</option>
-          </select>
-        </div>
-      </div>
-      <form method="post" action="" name="contact_form">
         <div class="mb-3 d-flex">
           <label for="exampleFormControlInput1" class="form-label w-25">Email</label>
-          <input type="email" class="form-control w-50" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" class="form-control w-50" id="exampleFormControlInput1" placeholder="name@example.com" name="Email">
         </div>
         <div class="mb-3 d-flex">
           <label for="exampleFormControlInput1" class="form-label w-25">คำถาม</label>
-          <input type="text" class="form-control w-50" id="exampleFormControlInput1" placeholder="">
+          <input type="text" class="form-control w-50" id="exampleFormControlInput1" placeholder="" name="question">
         </div>
         <div class="mb-3 d-flex">
           <label for="exampleFormControlInput1" class="form-label w-25">ชื่อ-นามสกุล</label>
-          <input type="text" class="form-control w-50" id="exampleFormControlInput1" placeholder="">
+          <input type="text" class="form-control w-50" id="exampleFormControlInput1" placeholder="" name="name">
         </div>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">รายละเอียด</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="details"></textarea>
         </div>
         <div class="col-12">
           <button type="submit" class="btn btn-custom px-4 py-2">ยืนยัน</button>
           <button type="submit" class="btn btn-custom px-4 py-2">ยกเลิก</button>
         </div>
       </form>
-        
-      </div>
+
     </div>
   </div>
+  </div>
+
 
   <!-- Achive Section -->
 
