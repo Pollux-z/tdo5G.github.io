@@ -359,6 +359,7 @@ main {
     vertical-align: middle;
     background: rgb(112, 48, 160, 0.5);
     padding: 2px;
+    width: 70%;
   }
   .lightbox.closed {
     display: none;
